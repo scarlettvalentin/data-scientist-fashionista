@@ -37,3 +37,25 @@ h1 {
     padding: 30px;
     font-size: large;
 }
+
+#about-me {
+    border-style: solid;
+    border-width: 7px;
+    overflow: auto;
+    
+}
+
+#about-me img {
+    padding: 30px;
+    border-radius: 50px;
+    width: 25%;
+
+    float: left;
+}
+
+#about-me p {
+    padding: 30px;
+    position: relative;
+
+
+}
