@@ -2,6 +2,10 @@ body {
     background: white;
     font-family: 'Avantgarde', sans-serif;
 }
+/* below is not working as expected */
+a:active {
+    color: #ff66c4;
+}
 
 #navbar {
     background-color: white;
@@ -32,10 +36,16 @@ body {
     align-items:center;  
   }
 
-h1 {
+h1{
     text-align: left;
     padding: 30px;
     font-size: large;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+
 }
 
 #home-banner img {
