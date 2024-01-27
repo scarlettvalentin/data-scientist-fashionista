@@ -38,6 +38,10 @@ h1 {
     font-size: large;
 }
 
+#home-banner img {
+    width: 100%;
+}
+
 #about-me {
     border-style: solid;
     border-width: 7px;
