@@ -2,7 +2,7 @@ body {
     background: white;
     font-family: 'Avantgarde', sans-serif;
 }
-/* below is not working as expected */
+/* Top navigation */
 .active {
     color: #ff66c4;
 }
@@ -46,15 +46,53 @@ h1{
     font-size: large;
 }
 
+/* Footer navigation */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.footer img {
+    padding: 15px;
+    width: 42px;
+
+}
+
+/*Change margin-left. Goal is to position icons relative to the right of the webpage*/
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    align-content: space-around;
+    margin-left: 600px
+}
+
+
+/* Home Page */
+
+#home-banner img {
+    width: 100%;
+}
+
+
+
+/* About Me Page */
+
 h2 {
     text-align: center;
     padding: 30px;
 
 }
 
-#home-banner img {
-    width: 100%;
-}
+
 
 #about-me {
     border-style: solid;
